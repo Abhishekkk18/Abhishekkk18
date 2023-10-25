@@ -146,7 +146,11 @@ This system operates independently of a 3-pin security lock, functioning continu
 ### **References:**
 
 [https://www.elprocus.com/home-automation-projects-engineering-students/ ](https://www.elprocus.com/home-automation-projects-engineering-students/)
+
 [https://www.youtube.com/watch?v=h0T2uolYEWA ](https://www.youtube.com/watch?v=h0T2uolYEWA)
+
 [https://www.researchgate.net/figure/Circuit-design-of-home-automation-using-IoT-and smart%20phone_fig1_341235644 ](https://www.researchgate.net/figure/Circuit-design-of-home-automation-using-IoT-and%20smart%20phone_fig1_341235644)
+
 [https://circuitdigest.com/home-automation-projects ](https://circuitdigest.com/home-automation-projects)
+
 Neso Academy – [https://www.nesoacademy.org/ee/05-digital-electronics](https://www.nesoacademy.org/ee/05-digital-electronics)https://www.nesoacademy.org/ee/05-digital-electronics  
