@@ -129,15 +129,15 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 #### **Basic Design Of Mini-Project**
 
-![Design-S2-T18-Desgin.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Design.png)
+![Design-S2-T18-Desgin.png]([https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Design.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Design.png))
 
 #### **Flow-Chart Of execution**
 
-![Design-S2-T18-Flow-Chart.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Flow-Chart.png)
+![Design-S2-T18-Flow-Chart.png]([https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Flow-Chart.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Flow-Chart.png))
 
 #### **Security-Lock-Logisim**
 
-![Design-S2-T18-Security-Lock-Logisim.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Security_Lock-Logisim.png)
+![Design-S2-T18-Security-Lock-Logisim.png](S2-T18-Security_Lock-Logisim.png)
 
 #### **Logisim**
 
