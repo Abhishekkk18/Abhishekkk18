@@ -153,4 +153,4 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 [https://circuitdigest.com/home-automation-projects ](https://circuitdigest.com/home-automation-projects)
 
-Neso Academy – [https://www.nesoacademy.org/ee/05-digital-electronics](https://www.nesoacademy.org/ee/05-digital-electronics)https://www.nesoacademy.org/ee/05-digital-electronics  
+Neso Academy – [https://www.nesoacademy.org/ee/05-digital-electronics)
