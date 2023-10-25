@@ -137,11 +137,11 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 #### **Security-Lock-Logisim**
 
-![Design-S2-T18-Security-Lock-Logisim.png](S2-T18-Security_Lock-Logisim.png)
+![Design-S2-T18-Security-Lock-Logisim.png]([S2-T18-Security_Lock-Logisim.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Security_Lock-Logisim.png))
 
 #### **Logisim**
 
-![Design-S2-T18-Logisim.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Logisim.png)
+![Design-S2-T18-Logisim.png]([https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Logisim.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Logisim.png))
 
 ### **References**
 
