@@ -6,7 +6,7 @@ Premises. We've harnessed the power of cutting-edge technologyto bring you an in
 Explore, enjoy, and embrace the new era of comfortable living with Smart Home Automation!
 
 
-### **Abstract:**
+### **Abstract**
 <p align="justify">In this mini-project, we will create a comprehensive smart home automation system that uses a combination of sensors and logic gates to access our home through 
 remote and trigger alarms in case of unauthorized movements. A smart home automation system is an integrated network of devices and sensors within a home that communicate and
 interact with each other, as well as with the homeowner, to control over various devices. The advanced systems utilize modern technologies, including the Internet of Things(IoT), 
@@ -33,7 +33,7 @@ The basic contributions include:
 
 With these features, our project offers a comprehensive and user-friendly interface for home security and monitoring.
 
-### **Brief Description:**
+### **Brief Description**
 
 - **Smart Home Automation: Transforming Modern Living**
 
@@ -80,7 +80,7 @@ The security lock serves as the gateway to the entire home automation system. To
 but also makes the system more user-friendly. Once the remote access is granted, users have the power to control various devices according to their preferences. Furthermore, 
 the system's capabilities can be expanded by integrating additional everyday devices into the setup. 
 
-### **Working:** 
+### **Working** 
 
 **1. Initialization:**
 
@@ -103,9 +103,9 @@ each device.
 
 This system operates independently of a 3-pin security lock, functioning continuously day and night. In the event of a fire detection, it promptly triggers an alarm. 
 
-### **Functional Table:**
+### **Functional Table**
 
-###### **The Functionality Of System:**
+###### **The Functionality Of System**
 
 | Key | Motion Sensor | Remote | Devices |
 | --- | ------------- | ------ | ------- |
@@ -118,7 +118,7 @@ This system operates independently of a 3-pin security lock, functioning continu
 |  1  |      1        |   0    |   0     |
 |  1  |      1        |   1    |   1     |
 
-###### **Fire-Alarm Trigger:**
+###### **Fire-Alarm Trigger**
 
 | Fire Detector | Remote | Alarm |
 | ------------- | ------ | ----- |
@@ -127,23 +127,23 @@ This system operates independently of a 3-pin security lock, functioning continu
 |      1        |   0    |   1   |
 |      1        |   1    |   0   |
 
-#### **Basic Design Of Mini-Project:**
+#### **Basic Design Of Mini-Project**
 
 ![Design-S2-T18-Desgin.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Design.png)
 
-#### **Flow-Chart Of execution:**
+#### **Flow-Chart Of execution**
 
 ![Design-S2-T18-Flow-Chart.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Flow-Chart.png)
 
-#### **Security-Lock-Logisim:**
+#### **Security-Lock-Logisim**
 
 ![Design-S2-T18-Security-Lock-Logisim.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Security_Lock-Logisim.png)
 
-#### **Logisim:**
+#### **Logisim**
 
 ![Design-S2-T18-Logisim.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Logisim.png)
 
-### **References:**
+### **References**
 
 [https://www.elprocus.com/home-automation-projects-engineering-students/ ](https://www.elprocus.com/home-automation-projects-engineering-students/)
 
