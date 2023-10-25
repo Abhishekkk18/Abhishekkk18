@@ -105,7 +105,7 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 ### **Functional Table:**
 
-###### **The functionality of system expressed here:**
+###### **The Functionality Of System:**
 
 | Key | Motion Sensor | Remote | Devices |
 | --- | ------------- | ------ | ------- |
@@ -127,19 +127,19 @@ This system operates independently of a 3-pin security lock, functioning continu
 |      1        |   0    |   1   |
 |      1        |   1    |   0   |
 
-- **Basic Design Of Mini-Project:**
+#### **Basic Design Of Mini-Project:**
 
 ![Design-S2-T18-Desgin.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Design.png)
 
-- **Flow-Chart Of execution:**
+#### **Flow-Chart Of execution:**
 
 ![Design-S2-T18-Flow-Chart.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Flow-Chart.png)
 
-- **Security-Lock-Logisim:**
+#### **Security-Lock-Logisim:**
 
 ![Design-S2-T18-Security-Lock-Logisim.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Security_Lock-Logisim.png)
 
-- **Logisim:**
+#### **Logisim:**
 
 ![Design-S2-T18-Logisim.png](https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Logisim.png)
 
