@@ -129,19 +129,19 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 #### **Basic Design Of Mini-Project**
 
-![Design-S2-T18-Desgin.png]([https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Design.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Design.png))
+![Design-S2-T18-Desgin.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Design.png)
 
 #### **Flow-Chart Of execution**
 
-![Design-S2-T18-Flow-Chart.png]([https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Flow-Chart.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Flow-Chart.png))
+![Design-S2-T18-Flow-Chart.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Flow-Chart.png)
 
 #### **Security-Lock-Logisim**
 
-![Design-S2-T18-Security-Lock-Logisim.png]([S2-T18-Security_Lock-Logisim.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Security_Lock-Logisim.png))
+![Design-S2-T18-Security-Lock-Logisim.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Security_Lock-Logisim.png)
 
 #### **Logisim**
 
-![Design-S2-T18-Logisim.png]([https://github.com/Abhishekkk18/Abhishekkk18/blob/main/S2-T18-Logisim.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Logisim.png))
+![Design-S2-T18-Logisim.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Logisim.png)
 
 ### **References**
 
@@ -149,7 +149,7 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 [https://www.youtube.com/watch?v=h0T2uolYEWA ](https://www.youtube.com/watch?v=h0T2uolYEWA)
 
-[https://www.researchgate.net/figure/Circuit-design-of-home-automation-using-IoT-and smart%20phone_fig1_341235644 ](https://www.researchgate.net/figure/Circuit-design-of-home-automation-using-IoT-and%20smart%20phone_fig1_341235644)
+[https://www.researchgate.net/figure/Circuit-design-of-home-automation-using-IoT-andsmart%20phone_fig1_341235644)
 
 [https://circuitdigest.com/home-automation-projects ](https://circuitdigest.com/home-automation-projects)
 
