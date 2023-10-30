@@ -1,6 +1,6 @@
 <p align="center"><h1><strong> 🏡 Smart Home Automation: A New Era of Home Living</strong></h1></p>
 
-<p align='justify'>Welcome to the future of home living!! Our Smart Home Automation project is designed to redefine the way you experience comfort, security, and convenience within your own 
+<p align='justify'>Welcome to the future of home living!! Our Smart Home Automation project is designed to redefine the way you experience comfort, security, and convenience within your own
 Premises. We've harnessed the power of cutting-edge technologyto bring you an innovative solution that will transform your home into a heaven of modern living.</p>
 
 Explore, enjoy, and embrace the new era of comfortable living with Smart Home Automation!
