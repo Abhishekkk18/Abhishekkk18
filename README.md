@@ -273,11 +273,7 @@ This system operates independently of a 3-pin security lock, functioning continu
   
       $display("|  PDP1  |  PDP2  |  PDP3  |  UEP1  |  UEP2  |  UEP3  | M |Motion_Sensor|Fire_Detector| Remote | Devices |");
   
-      $monitor("  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b 
-       %0b             %0b       %0b %0b %0b %0b   %0b %0b %0b %0b  ",
-  PDP1[3],PDP1[2],PDP1[1],PDP1[0],PDP2[3],PDP2[2],PDP2[1],PDP2[0],PDP3[3],PDP3[2],PDP3[1],PDP3[0],UEP1[3],UEP1[2],UEP1[1],
-  UEP1[0],UEP2[3],UEP2[2],UEP2[1],UEP2[0],UEP3[3],UEP3[2],UEP3[1],UEP3[0],M,Motion_Sensor,Fire_Detector,Remote[0],Remote[1],
-  Remote[2],Remote[3],Devices[0],Devices[1],Devices[2],Devices[3]);
+      $monitor("  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b        %0b             %0b       %0b %0b %0b %0b   %0b %0b %0b %0b  ",PDP1[3],PDP1[2],PDP1[1],PDP1[0],PDP2[3],PDP2[2],PDP2[1],PDP2[0],PDP3[3],PDP3[2],PDP3[1],PDP3[0],UEP1[3],UEP1[2],UEP1[1],UEP1[0],UEP2[3],UEP2[2],UEP2[1],UEP2[0],UEP3[3],UEP3[2],UEP3[1],UEP3[0],M,Motion_Sensor,Fire_Detector,Remote[0],Remote[1],Remote[2],Remote[3],Devices[0],Devices[1],Devices[2],Devices[3]);
   
       PDP1=4'b0000;
   
