@@ -129,7 +129,7 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 #### **Basic Design Of Mini-Project**
 
-![https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/Snapshots/S2-T18-Design.png)
+![Design](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/Snapshots/S2-T18-Design.png)
 
 #### **Flow-Chart Of execution**
 
