@@ -143,6 +143,105 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 ![Design-S2-T18-Logisim.png](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/S2-T18-Logisim.png)
 
+### **Verilog Code:**
+
+- **Main:**
+module main(Motion_Sensor,Fire_Detector,PDP1,PDP2,PDP3,UEP1,UEP2,UEP3,Remote,M,Devices);
+    input Motion_Sensor,Fire_Detector;
+    input [3:0]PDP1,PDP2,PDP3,UEP1,UEP2,UEP3,Remote;
+    output M;
+    output [3:0]Devices;
+    wire N;
+    wire [3:0]O;
+    security_lock SL1(PDP1,PDP2,PDP3,UEP1,UEP2,UEP3,M);
+    and(N,Motion_Sensor,M);
+    and(O[0],M,Remote[0]);
+    and(O[1],M,Remote[1]);
+    and(O[2],M,Remote[2]);
+    and(O[3],M,Remote[3]);
+    xor(Devices[0],N,O[0]);
+    xor(Devices[1],N,O[1]);
+    xor(Devices[2],N,O[2]);
+    xor(Devices[3],N,O[3]);
+endmodule
+
+module security_lock(PDP1,PDP2,PDP3,UEP1,UEP2,UEP3,Out);
+    input [3:0]PDP1,PDP2,PDP3,UEP1,UEP2,UEP3;
+    output Out;
+    wire [2:0]X;
+    wire [1:0]Invalid1,Invalid2,Invalid3;
+    four_bit_comparator FBC1(PDP1,UEP1,X[0],{Invalid1[1],Invalid1[0]});
+    four_bit_comparator FBC2(PDP2,UEP3,X[1],{Invalid2[1],Invalid2[0]});
+    four_bit_comparator FBC3(PDP3,UEP3,X[2],{Invalid3[1],Invalid3[0]});
+    and(Out,X[0],X[1],X[2]);
+endmodule
+
+module four_bit_comparator(A,B,Correct,Invalid);
+    input [3:0]A,B;
+    output Correct;
+    output [1:0]Invalid;
+    wire [3:0]W;
+    wire [1:0]P,Q;
+    xnor(W[0],A[0],B[0]);
+    xnor(W[1],A[1],B[1]);
+    xnor(W[2],A[2],B[2]);
+    xnor(W[3],A[3],B[3]);
+    and(Correct,W[3],W[2],W[1],W[0]);
+    and(P[0],A[3],A[2]);
+    and(P[1],A[3],A[1]);
+    or(Invalid[0],P[1],P[0]);
+    and(Q[0],B[3],B[2]);
+    and(Q[1],B[3],B[1]);
+    or(Invalid[1],Q[1],Q[0]);
+endmodule
+
+- **Test Bench:**
+
+`include "verilog.v"
+module verilog_tb;
+    reg Motion_Sensor,Fire_Detector;
+    reg [3:0]PDP1,PDP2,PDP3,UEP1,UEP2,UEP3,Remote;
+    wire M;
+    wire [3:0]Devices;
+    main m1(Motion_Sensor,Fire_Detector,PDP1,PDP2,PDP3,UEP1,UEP2,UEP3,Remote,M,Devices);
+    initial begin
+        $dumpfile("verilog.vcd");
+        $dumpvars(0,verilog_tb);
+    end
+    initial begin
+    $display("                                                Smart Home Automation                                     ");
+    $display("|                                                     Input                                    |  Output |");
+    $display("|                          Security_Lock                  |Motion_Sensor|Fire_Detector| Remote | Devices |");
+    $display("|  PDP1  |  PDP2  |  PDP3  |  UEP1  |  UEP2  |  UEP3  | M |Motion_Sensor|Fire_Detector| Remote | Devices |");
+    $monitor("  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b %0b %0b %0b  %0b        %0b             %0b       %0b %0b %0b %0b   %0b %0b %0b %0b  ", PDP1[3],PDP1[2],PDP1[1],PDP1[0],PDP2[3],PDP2[2],PDP2[1],PDP2[0],PDP3[3],PDP3[2],PDP3[1],PDP3[0],UEP1[3],UEP1[2],UEP1[1],
+UEP1[0],UEP2[3],
+                UEP2[2],UEP2[1],UEP2[0],UEP3[3],UEP3[2],UEP3[1],UEP3[0],M,Motion_Sensor,Fire_Detector,Remote[0],Remote[1],Remote[2],
+Remote[3],Devices[0],Devices[1],Devices[2],Devices[3]);
+    PDP1=4'b0000;
+    PDP2=4'b0000;
+    PDP3=4'b0000;
+    UEP1=4'b0000;
+    UEP2=4'b0000;
+    UEP3=4'b0000;
+    Motion_Sensor=1'b0;
+    Fire_Detector=1'b0;
+    Remote=4'b0000;
+    repeat(15)begin 
+    #10 PDP1=$random;
+    #10 PDP2=$random;
+    #10 PDP3=$random;
+    #10 UEP1=$random;
+    #10 UEP2=$random;
+    #10 UEP3=$random;
+    #10 Remote=$random;
+    #10 Motion_Sensor=1'b1;
+    #10 Fire_Detector=1'b1;
+    end
+    end
+    initial #2400$finish;
+endmodule
+
+
 ### **References**
 
 [https://www.elprocus.com/home-automation-projects-engineering-students/ ](https://www.elprocus.com/home-automation-projects-engineering-students/)
