@@ -9,27 +9,23 @@ Explore, enjoy, and embrace the new era of comfortable living with Smart Home Au
 ## Team Details
 <details>
   <summary>Detail</summary>
+  **Semester:** 3rd Sem B.Tech. CSE
 
-  > Semester: 3rd Sem B.Tech. CSE
+  **Section:** S2
 
-  > Section: S2
+  **Member-1:** 221CS213, Chanakya Pavan Kumar S, chanakya.221cs213@nitk.edu.in, 8971250214
 
-  > Member-1: 221CS213, Chanakya Pavan Kumar S, chanakya.221cs213@nitk.edu.in, 8971250214
+  **Member-2:**  221CS233, Palli Abhishek Kumar, palliabhishekkumar.221cs233@nitk.edu.in, 8328472495
 
-  > Member-2:  221CS233, Palli Abhishek Kumar, palliabhishekkumar.221cs233@nitk.edu.in, 8328472495
-
-  > Member-3:  221CS257, Tumula Sarath Chandra, tumulasarathchandra.221cs257@nitk.edu.in, 9100962708
-
+  **Member-3:**  221CS257, Tumula Sarath Chandra, tumulasarathchandra.221cs257@nitk.edu.in, 9100962708
 </details>
 
 <!-- Second Section -->
 ### **Abstract**
 <details>
   <summary>Detail</summary>
-> <p align="justify">In this mini-project, we will create a comprehensive smart home automation system that uses a combination of sensors and logic gates to access our home through 
-remote and trigger alarms in case of unauthorized movements. A smart home automation system is an integrated network of devices and sensors within a home that communicate and
-interact with each other, as well as with the homeowner, to control over various devices. The advanced systems utilize modern technologies, including the Internet of Things(IoT), 
-wireless communication protocols, and artificial intelligence, to transform a traditional home into a connected and intelligent living space.</p>
+  
+<p align="justify">In this mini-project, we will create a comprehensive smart home automation system that uses a combination of sensors and logic gates to access our home through remote and trigger alarms in case of unauthorized movements. A smart home automation system is an integrated network of devices and sensors within a home that communicate andinteract with each other, as well as with the homeowner, to control over various devices. The advanced systems utilize modern technologies, including the Internet of Things(IoT), wireless communication protocols, and artificial intelligence, to transform a traditional home into a connected and intelligent living space.</p>
 
 Our motivation for developing this project stems from a deep enthusiasm for smart home technology. We are inspired by its numerous advantages, which include:
 - **Convenience:** Smart home technology makes life easier by automating various tasks and providing control at your fingertips.
@@ -98,15 +94,14 @@ This model serves as a simple yet illustrative example of how this system functi
 The security lock serves as the gateway to the entire home automation system. To gain access and control, users must input the correct PIN, which not only enhances security 
 but also makes the system more user-friendly. Once the remote access is granted, users have the power to control various devices according to their preferences. Furthermore, 
 the system's capabilities can be expanded by integrating additional everyday devices into the setup. 
-
 </details>
 
 <!-- Third Section -->
 ### **Working** 
 <details>
   <summary>Detail</summary>
-  
-> **1. Initialization:**
+ 
+**1. Initialization:**
 
 User can **access** the control over the system once the **Security-Lock opens**. This provides the user basic security that ensures selective usability.The 3-Pin is set by 
 the user as lock. To get access or entry into the room or system, One has to enter the correct Pin that was set before.Once the user enters, he/she can **change** the pin 
@@ -150,20 +145,20 @@ This system operates independently of a 3-pin security lock, functioning continu
 |      0        |   1    |   0   |
 |      1        |   0    |   1   |
 |      1        |   1    |   0   |
-
-</details>
-
-<!-- Fourth Section -->
-<details>
-  <summary>Detail</summary>
-  
-> #### **Basic Design Of Mini-Project**
+ 
+#### **Basic Design Of Mini-Project**
 
 ![Design](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/Snapshots/S2-T18-Design.png)
 
 #### **Flow-Chart Of execution**
 
 ![Flow-Chart](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/Snapshots/S2-T18-Flow-Chart.png)
+</details>
+
+<!-- Fourth Section -->
+### **Logisim Circuit Diagram:**
+<details>
+  <summary>Detail</summary>
 
 #### **Security-Lock-Logisim**
 
@@ -180,7 +175,7 @@ This system operates independently of a 3-pin security lock, functioning continu
 <details>
   <summary>Detail</summary>
 
-> - **Main:**
+- **Main:**
   
   module main(Motion_Sensor,Fire_Detector,PDP1,PDP2,PDP3,UEP1,UEP2,UEP3,Remote,M,Devices);
   
@@ -354,8 +349,7 @@ This system operates independently of a 3-pin security lock, functioning continu
   
       initial #2400$finish;
   
-  endmodule
-  
+  endmodule  
 </details>
 
 <!-- Sixth Section -->
@@ -363,7 +357,7 @@ This system operates independently of a 3-pin security lock, functioning continu
 <details>
   <summary>Detail</summary>
 
-> [https://www.elprocus.com/home-automation-projects-engineering-students/ ](https://www.elprocus.com/home-automation-projects-engineering-students/)
+[https://www.elprocus.com/home-automation-projects-engineering-students/ ](https://www.elprocus.com/home-automation-projects-engineering-students/)
 
 [https://www.youtube.com/watch?v=h0T2uolYEWA ](https://www.youtube.com/watch?v=h0T2uolYEWA)
 
