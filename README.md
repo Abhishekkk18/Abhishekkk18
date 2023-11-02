@@ -5,9 +5,28 @@ Premises. We've harnessed the power of cutting-edge technology to bring you an i
 
 Explore, enjoy, and embrace the new era of comfortable living with Smart Home Automation!
 
+<!-- First Section -->
+## Team Details
+<details>
+  <summary>Detail</summary>
 
+  > Semester: 3rd Sem B.Tech. CSE
+
+  > Section: S2
+
+  > Member-1: 221CS213, Chanakya Pavan Kumar S, chanakya.221cs213@nitk.edu.in, 8971250214
+
+  > Member-2:  221CS233, Palli Abhishek Kumar, palliabhishekkumar.221cs233@nitk.edu.in, 8328472495
+
+  > Member-3:  221CS257, Tumula Sarath Chandra, tumulasarathchandra.221cs257@nitk.edu.in, 9100962708
+
+</details>
+
+<!-- Second Section -->
 ### **Abstract**
-<p align="justify">In this mini-project, we will create a comprehensive smart home automation system that uses a combination of sensors and logic gates to access our home through 
+<details>
+  <summary>Detail</summary>
+> <p align="justify">In this mini-project, we will create a comprehensive smart home automation system that uses a combination of sensors and logic gates to access our home through 
 remote and trigger alarms in case of unauthorized movements. A smart home automation system is an integrated network of devices and sensors within a home that communicate and
 interact with each other, as well as with the homeowner, to control over various devices. The advanced systems utilize modern technologies, including the Internet of Things(IoT), 
 wireless communication protocols, and artificial intelligence, to transform a traditional home into a connected and intelligent living space.</p>
@@ -80,9 +99,14 @@ The security lock serves as the gateway to the entire home automation system. To
 but also makes the system more user-friendly. Once the remote access is granted, users have the power to control various devices according to their preferences. Furthermore, 
 the system's capabilities can be expanded by integrating additional everyday devices into the setup. 
 
-### **Working** 
+</details>
 
-**1. Initialization:**
+<!-- Third Section -->
+### **Working** 
+<details>
+  <summary>Detail</summary>
+  
+> **1. Initialization:**
 
 User can **access** the control over the system once the **Security-Lock opens**. This provides the user basic security that ensures selective usability.The 3-Pin is set by 
 the user as lock. To get access or entry into the room or system, One has to enter the correct Pin that was set before.Once the user enters, he/she can **change** the pin 
@@ -127,7 +151,13 @@ This system operates independently of a 3-pin security lock, functioning continu
 |      1        |   0    |   1   |
 |      1        |   1    |   0   |
 
-#### **Basic Design Of Mini-Project**
+</details>
+
+<!-- Fourth Section -->
+<details>
+  <summary>Detail</summary>
+  
+> #### **Basic Design Of Mini-Project**
 
 ![Design](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/Snapshots/S2-T18-Design.png)
 
@@ -143,9 +173,14 @@ This system operates independently of a 3-pin security lock, functioning continu
 
 ![Logisim](https://github.com/Abhishekkk18/S2-T18-Mini-Project/blob/Smart-Home-Automation/Snapshots/S2-T18-Logisim.png)
 
-### **Verilog Code:**
+</details>
 
-- **Main:**
+<!-- Fifth Section -->
+### **Verilog Code:**
+<details>
+  <summary>Detail</summary>
+
+> - **Main:**
   
   module main(Motion_Sensor,Fire_Detector,PDP1,PDP2,PDP3,UEP1,UEP2,UEP3,Remote,M,Devices);
   
@@ -320,11 +355,15 @@ This system operates independently of a 3-pin security lock, functioning continu
       initial #2400$finish;
   
   endmodule
+  
+</details>
 
-
+<!-- Sixth Section -->
 ### **References**
+<details>
+  <summary>Detail</summary>
 
-[https://www.elprocus.com/home-automation-projects-engineering-students/ ](https://www.elprocus.com/home-automation-projects-engineering-students/)
+> [https://www.elprocus.com/home-automation-projects-engineering-students/ ](https://www.elprocus.com/home-automation-projects-engineering-students/)
 
 [https://www.youtube.com/watch?v=h0T2uolYEWA ](https://www.youtube.com/watch?v=h0T2uolYEWA)
 
@@ -333,3 +372,4 @@ https://www.researchgate.net/figure/Circuit-design-of-home-automation-using-IoT-
 [https://circuitdigest.com/home-automation-projects ](https://circuitdigest.com/home-automation-projects)
 
 https://www.nesoacademy.org/ee/05-digital-electronics
+</details>
